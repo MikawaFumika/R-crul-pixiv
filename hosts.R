@@ -26,8 +26,8 @@ pgsession <- html_session(url)
 pgform <- html_form(pgsession)
 
 filled_form <- set_values(pgform,
-                          'form_email'='ye_ys@qq.com',
-                          'form_password'='yys2019130011')
+                          'form_email'='ye',
+                          'form_password'='y1')
 sbmt <- submit_form(pgsession,filled_form)
 pgform1 <- html_form(sbmt)
 filled_form1 <- set_values(pgform1[[2]],
