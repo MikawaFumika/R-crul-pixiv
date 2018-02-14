@@ -33,8 +33,8 @@ capfigurl
 
 #给出第一个关注列表信息
 filled_form <- set_values(pgform,
-                          'form_email'='ye_ys@qq.com',
-                          'form_password'='yys20191',
+                          'form_email'='ym',
+                          'form_password'='y1',
                           'captcha-solution'='chance')
 sbmt <- submit_form(pgsession,filled_form)
 position<-sbmt %>% html_nodes("dl.obu") %>% html_children()
@@ -63,8 +63,8 @@ capfigurl=paste0("https://www.douban.com/misc/captcha?id=",captchaid,"&size=s")
 capfigurl
 #重复验证码报头
 filled_form <- set_values(pgform,
-                          'form_email'='13240001871',
-                          'form_password'='Tidewater2019130011',
+                          'form_email'='131',
+                          'form_password'='T11',
                           'captcha-solution'='ticket')
 sbmt <- submit_form(pgsession,filled_form)
 position<-sbmt %>% html_nodes("dl.obu") %>% html_children()
@@ -107,8 +107,8 @@ capfigurl=paste0("https://www.douban.com/misc/captcha?id=",captchaid,"&size=s")
 capfigurl
 #验证码
 filled_form <- set_values(pgform,
-                          'form_email'='ye_ys@qq.com',
-                          'form_password'='yys2019130011',
+                          'form_email'='ye',
+                          'form_password'='y1',
                           'captcha-solution'='though')
 filled_form <- set_values(pgform,
 'form_email'='ye_ys@qq.com',
